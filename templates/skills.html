@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Skill Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Skill Gap Analysis</h2>
+
+    <textarea
+        id="skills"
+        placeholder="Enter skills separated by commas"
+    ></textarea>
+
+    <select id="role">
+
+        <option>
+            frontend developer
+        </option>
+
+        <option>
+            backend developer
+        </option>
+
+        <option>
+            data scientist
+        </option>
+
+    </select>
+
+    <button onclick="analyzeSkills()">
+        Analyze Skills
+    </button>
+
+    <h3 id="result"></h3>
+
+</div>
+
+
+</body>
+</html>
